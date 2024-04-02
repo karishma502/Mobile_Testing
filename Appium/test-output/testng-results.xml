@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T23:45:52 IST" name="Default suite" finished-at="2024-04-02T23:47:04 IST" duration-ms="71982">
+    <groups>
+    </groups>
+    <test started-at="2024-04-02T23:45:52 IST" name="Default test" finished-at="2024-04-02T23:47:04 IST" duration-ms="71982">
+      <class name="MobileTesting.Appium.AppiumBasics">
+        <test-method signature="AppiumTest()[pri:0, instance:MobileTesting.Appium.AppiumBasics@4efac082]" started-at="2024-04-02T23:45:52 IST" name="AppiumTest" finished-at="2024-04-02T23:47:04 IST" duration-ms="71456" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'io.appium.android.apis' application. Consider checking the driver's troubleshooting documentation. Original error: 'io.appium.android.apis.ApiDemos' or 'io.appium.android.apis.io.appium.android.apis.ApiDemos' never started. Consider checking the driver's troubleshooting documentation. 
+Host info: host: 'LAPTOP-BU5PU8BL', ip: '192.168.1.4'
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Pixel_3a_API_34_extension_l..., platformName: ANDROID}, capabilities=[{appium:app=E://Appium Project//Appium//src//test//java//resources//ApiDemos-debug.apk, platformName=ANDROID, appium:automationName=UIAutomator2, appium:deviceName=Pixel_3a_API_34_extension_level_7_x86_64}]}]
+Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Pixel_3a_API_34_extension_l..., platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'io.appium.android.apis' application. Consider checking the driver's troubleshooting documentation. Original error: 'io.appium.android.apis.ApiDemos' or 'io.appium.android.apis.io.appium.android.apis.ApiDemos' never started. Consider checking the driver's troubleshooting documentation. 
+Host info: host: 'LAPTOP-BU5PU8BL', ip: '192.168.1.4'
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Pixel_3a_API_34_extension_l..., platformName: ANDROID}, capabilities=[{appium:app=E://Appium Project//Appium//src//test//java//resources//ApiDemos-debug.apk, platformName=ANDROID, appium:automationName=UIAutomator2, appium:deviceName=Pixel_3a_API_34_extension_level_7_x86_64}]}]
+Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Pixel_3a_API_34_extension_l..., platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:116)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:96)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+at MobileTesting.Appium.AppiumBasics.AppiumTest(AppiumBasics.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumTest -->
+      </class> <!-- MobileTesting.Appium.AppiumBasics -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

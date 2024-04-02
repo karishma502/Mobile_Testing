@@ -1096,3 +1096,4 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2024-04-02 17:46:01,660 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Appium Project\Appium\src\main\resources
 2024-04-02 17:46:01,674 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-04-02 17:46:01,674 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Appium Project\Appium\src\test\resources
+2024-04-02 17:53:50,878 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

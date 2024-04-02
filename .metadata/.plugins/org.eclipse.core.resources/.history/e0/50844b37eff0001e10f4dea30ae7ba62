@@ -1,0 +1,19 @@
+package MobileTesting.Appium;
+
+import java.net.URL;
+
+import org.testng.annotations.Test;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class AppiumBasics {
+	
+	@Test
+	public void AppiumTest() {
+		
+		//Appium code -> Appium server -> Mobile.
+		
+		AndroidDriver driver = new AndroidDriver(new URL("https//: 192.168.1.4:4723"), null);
+	}
+
+}
