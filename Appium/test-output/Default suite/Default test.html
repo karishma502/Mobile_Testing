@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 02 23:45:52 IST 2024</td>
+<td>Started on:</td><td>Thu Apr 04 00:52:16 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>71 seconds (71982 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25217 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,30 +76,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='MobileTesting.Appium.AppiumBasics.AppiumTest()'><b>AppiumTest</b><br>Test class: MobileTesting.Appium.AppiumBasics</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the &apos;io.appium.android.apis&apos; application. Consider checking the driver&apos;s troubleshooting documentation. Original error: &apos;io.appium.android.apis.ApiDemos&apos; or &apos;io.appium.android.apis.io.appium.android.apis.ApiDemos&apos; never started. Consider checking the driver&apos;s troubleshooting documentation. 
-Host info: host: &apos;LAPTOP-BU5PU8BL&apos;, ip: &apos;192.168.1.4&apos;
+<td title='MobileTesting.Appium.AppiumBasics.WifiSettingName()'><b>WifiSettingName</b><br>Test class: MobileTesting.Appium.AppiumBasics</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {desiredCapabilities=Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Pixel_3a_API_34_extension_l..., platformName: ANDROID}, capabilities=[{appium:app=E://Appium Project//Appium//src//test//java//resources//ApiDemos-debug.apk, platformName=ANDROID, appium:automationName=UIAutomator2, appium:deviceName=Pixel_3a_API_34_extension_level_7_x86_64}]}]
-Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Pixel_3a_API_34_extension_l..., platformName: ANDROID}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:116)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:96)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+Command: [5759c4b1-6334-4c09-ba88-6af1f34f9a1d, findElement {value=Preference, using=accessibility id}]
+Capabilities {appium:app: E://Appium Project//Appium/..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: E://Appium Project//Appium/..., automationName: UIAutomator2, deviceName: Pixel_3a_API_34_extension_l..., platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 14, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 5759c4b1-6334-4c09-ba88-6af1f34f9a1d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
-	at MobileTesting.Appium.AppiumBasics.AppiumTest(AppiumBasics.java:33)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at MobileTesting.Appium.AppiumBasics.WifiSettingName(AppiumBasics.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -128,30 +128,30 @@ Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName:
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace925803196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace925803196'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the &apos;io.appium.android.apis&apos; application. Consider checking the driver&apos;s troubleshooting documentation. Original error: &apos;io.appium.android.apis.ApiDemos&apos; or &apos;io.appium.android.apis.io.appium.android.apis.ApiDemos&apos; never started. Consider checking the driver&apos;s troubleshooting documentation. 
-Host info: host: &apos;LAPTOP-BU5PU8BL&apos;, ip: &apos;192.168.1.4&apos;
+</pre></div><a href='#' onClick='toggleBox("stack-trace1807894765", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1807894765'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {desiredCapabilities=Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Pixel_3a_API_34_extension_l..., platformName: ANDROID}, capabilities=[{appium:app=E://Appium Project//Appium//src//test//java//resources//ApiDemos-debug.apk, platformName=ANDROID, appium:automationName=UIAutomator2, appium:deviceName=Pixel_3a_API_34_extension_level_7_x86_64}]}]
-Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Pixel_3a_API_34_extension_l..., platformName: ANDROID}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:116)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:96)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+Command: [5759c4b1-6334-4c09-ba88-6af1f34f9a1d, findElement {value=Preference, using=accessibility id}]
+Capabilities {appium:app: E://Appium Project//Appium/..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: E://Appium Project//Appium/..., automationName: UIAutomator2, deviceName: Pixel_3a_API_34_extension_l..., platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 14, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 5759c4b1-6334-4c09-ba88-6af1f34f9a1d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:90)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:102)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:109)
-	at MobileTesting.Appium.AppiumBasics.AppiumTest(AppiumBasics.java:33)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at MobileTesting.Appium.AppiumBasics.WifiSettingName(AppiumBasics.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -181,8 +181,8 @@ Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName:
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>71</td>
-<td>MobileTesting.Appium.AppiumBasics@4efac082</td></tr>
+<td>0</td>
+<td>MobileTesting.Appium.AppiumBasics@750e2b97</td></tr>
 </table><p>
 </body>
 </html>

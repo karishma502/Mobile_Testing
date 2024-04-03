@@ -1,0 +1,5 @@
+package MobileTesting.Appium;
+
+public class BaseTest {
+
+}
