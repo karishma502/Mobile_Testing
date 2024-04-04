@@ -20,6 +20,8 @@ public class AppiumBasics extends BaseTest{
 
 		//Appium code -> Appium server -> Mobile.
 
+		//actual Automation
+
 		// Wifi setting Name ...
 		
 		driver.findElement(AppiumBy.accessibilityId("Preference")).click();
