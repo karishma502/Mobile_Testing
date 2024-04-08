@@ -1,0 +1,29 @@
+package MobileTesting.Appium;
+
+import static org.testng.Assert.assertEquals;
+
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.AppiumBy;
+import junit.framework.Assert;
+
+
+
+public class LongPress extends BaseTest{
+
+	@Test
+	public void LongPressGesture() throws MalformedURLException, URISyntaxException {
+		
+	@FindBy(id ="Views");	
+	private WebElement View;
+		
+		
+
+
+	}
+}

@@ -1,0 +1,43 @@
+package MobileTesting.Appium;
+
+import static org.testng.Assert.assertEquals;
+
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.AppiumBy;
+import junit.framework.Assert;
+
+
+
+public class LongPress extends BaseTest{
+
+	@FindBy(xpath ="//android.widget.TextView[@content-desc='Views']")	
+	private WebElement View;	
+	
+	@FindBy(xpath = "//android.widget.TextView[@content-desc='Expandable Lists']")
+	private WebElement ExpandableList;
+	
+	@FindBy(xpath = "//android.widget.TextView[@text='People Names']")
+	private WebElement ele;
+	
+
+	
+	@Test
+	public void LongPressGesture() throws MalformedURLException, URISyntaxException {
+		
+
+		View.click();
+		ExpandableList.click();
+		driver.findElement(AppiumBy.accessibilityId("1. Custom Adapter")).click();
+		
+		
+
+
+	}
+}

@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\HP\AppData\Local\Temp\testng-eclipse--1459722217\testng-customsuite.xml</span>
+                    <span>C:\Users\HP\AppData\Local\Temp\testng-eclipse-1968842330\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="MobileTesting.Appium.AppiumBasics" class="method navigator-link" hash-for-method="WifiSettingName">WifiSettingName</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="MobileTesting.Appium.LongPress" class="method navigator-link" hash-for-method="LongPressGesture">LongPressGesture</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -121,22 +121,38 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">MobileTesting.Appium.AppiumBasics</span>
+              <span class="class-name">MobileTesting.Appium.LongPress</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="WifiSettingName">
-                  </a> <!-- WifiSettingName -->
-                  <span class="method-name">WifiSettingName</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [WIFI settings] but found [WiFi settings]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at MobileTesting.Appium.AppiumBasics.WifiSettingName(AppiumBasics.java:32)
+                  <a name="LongPressGesture">
+                  </a> <!-- LongPressGesture -->
+                  <span class="method-name">LongPressGesture</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [66d1f82d-c99d-4443-b433-e79cef4f42df, findElement {value=view, using=accessibility id}]
+Capabilities {appium:app: E://Appium Project//Appium/..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: E://Appium Project//Appium/..., automationName: UIAutomator2, deviceName: Karishma Device, platformName: ANDROID}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1344x2992, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 136, appium:takesScreenshot: true, appium:viewportRect: {height: 2856, left: 0, top: 136, width: 1344}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 66d1f82d-c99d-4443-b433-e79cef4f42df
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at MobileTesting.Appium.LongPress.LongPressGesture(LongPress.java:40)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -174,7 +190,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\HP\AppData\Local\Temp\testng-eclipse--1459722217\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\HP\AppData\Local\Temp\testng-eclipse-1968842330\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -183,7 +199,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;MobileTesting.Appium.AppiumBasics&quot;/&gt;
+      &lt;class name=&quot;MobileTesting.Appium.LongPress&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -225,14 +241,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'WifiSettingName')
-data.setCell(0, 2, 'MobileTesting.Appium.AppiumBasics')
-data.setCell(0, 3, 11693);
+data.setCell(0, 1, 'LongPressGesture')
+data.setCell(0, 2, 'MobileTesting.Appium.LongPress')
+data.setCell(0, 3, 10103);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -258,7 +274,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">MobileTesting.Appium.AppiumBasics</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">MobileTesting.Appium.LongPress</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Configure</span>
                 <span class="method-start">0 ms</span>
@@ -266,12 +282,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">WifiSettingName</span>
-                <span class="method-start">26531 ms</span>
+                <span class="method-name">LongPressGesture</span>
+                <span class="method-start">11595 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38251 ms</span>
+                <span class="method-start">21731 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

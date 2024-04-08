@@ -28,7 +28,7 @@ public class BaseTest {
 		//service.start();
 
 		UiAutomator2Options option = new UiAutomator2Options();
-		option.setDeviceName("Pixel_3a_API_34_extension_level_7_x86_64");
+		option.setDeviceName("Karishma Device");
 		option.setApp("E://Appium Project//Appium//src//test//java//resources//ApiDemos-debug.apk");
 
 		driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), option);
