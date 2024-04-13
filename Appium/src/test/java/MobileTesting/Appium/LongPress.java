@@ -24,10 +24,6 @@ public class LongPress extends BaseTest{
 	@FindBy(xpath = "//android.widget.TextView[@text='People Names']")
 	private WebElement ele;
 
-
-
-
-
 	@Test
 	public void LongPressGesture() throws MalformedURLException, URISyntaxException, InterruptedException {
 

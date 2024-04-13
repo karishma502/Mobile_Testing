@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MobileTesting.Appium.LongPress">
+      <class name="MobileTesting.Appium.SwipeDemo">
         <methods>
           <include name="Configure"/>
           <include name="tearDown"/>
-          <include name="LongPressGesture"/>
+          <include name="SwipeDemoTest"/>
         </methods>
-      </class> <!-- MobileTesting.Appium.LongPress -->
+      </class> <!-- MobileTesting.Appium.SwipeDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
