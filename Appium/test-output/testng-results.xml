@@ -1,65 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-13T23:26:53 IST" name="Default suite" finished-at="2024-04-13T23:27:46 IST" duration-ms="52632">
+  <suite started-at="2024-04-19T22:21:41 IST" name="Default suite" finished-at="2024-04-19T22:22:32 IST" duration-ms="50951">
     <groups>
     </groups>
-    <test started-at="2024-04-13T23:26:53 IST" name="Default test" finished-at="2024-04-13T23:27:46 IST" duration-ms="52632">
-      <class name="MobileTesting.Appium.SwipeDemo">
-        <test-method is-config="true" signature="Configure()[pri:0, instance:MobileTesting.Appium.SwipeDemo@f0c8a99]" started-at="2024-04-13T23:26:53 IST" name="Configure" finished-at="2024-04-13T23:27:34 IST" duration-ms="40491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Configure -->
-        <test-method signature="SwipeDemoTest()[pri:0, instance:MobileTesting.Appium.SwipeDemo@f0c8a99]" started-at="2024-04-13T23:27:34 IST" name="SwipeDemoTest" finished-at="2024-04-13T23:27:44 IST" duration-ms="10138" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test started-at="2024-04-19T22:21:41 IST" name="Default test" finished-at="2024-04-19T22:22:32 IST" duration-ms="50951">
+      <class name="MobileTesting.Appium.DragAndDrop">
+        <test-method is-config="true" signature="Configure()[pri:0, instance:MobileTesting.Appium.DragAndDrop@2ddc9a9f]" started-at="2024-04-19T22:21:41 IST" name="Configure" finished-at="2024-04-19T22:22:31 IST" duration-ms="50504" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'io.appium.android.apis' application. Consider checking the driver's troubleshooting documentation. Original error: 'io.appium.android.apis.ApiDemos' or 'io.appium.android.apis.io.appium.android.apis.ApiDemos' never started. Consider checking the driver's troubleshooting documentation. 
+Host info: host: 'LAPTOP-BU5PU8BL', ip: '192.168.1.6'
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [5be70020-0f75-4d78-ac03-b5383b89323c, findElement {using=accessibility id, value=view}]
-Capabilities {appium:app: E://Appium Project//Appium/..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: E://Appium Project//Appium/..., automationName: UIAutomator2, deviceName: Karishma Device, platformName: ANDROID}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1344x2992, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 136, appium:takesScreenshot: true, appium:viewportRect: {height: 2856, left: 0, top: 136, width: 1344}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 5be70020-0f75-4d78-ac03-b5383b89323c]]>
+Command: [null, newSession {desiredCapabilities=Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Karishma Device, platformName: ANDROID}, capabilities=[{appium:deviceName=Karishma Device, appium:automationName=UIAutomator2, platformName=ANDROID, appium:app=E://Appium Project//Appium//src//test//java//resources//ApiDemos-debug.apk}]}]
+Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Karishma Device, platformName: ANDROID}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'io.appium.android.apis' application. Consider checking the driver's troubleshooting documentation. Original error: 'io.appium.android.apis.ApiDemos' or 'io.appium.android.apis.io.appium.android.apis.ApiDemos' never started. Consider checking the driver's troubleshooting documentation. 
+Host info: host: 'LAPTOP-BU5PU8BL', ip: '192.168.1.6'
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [5be70020-0f75-4d78-ac03-b5383b89323c, findElement {using=accessibility id, value=view}]
-Capabilities {appium:app: E://Appium Project//Appium/..., appium:appPackage: io.appium.android.apis, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: E://Appium Project//Appium/..., automationName: UIAutomator2, deviceName: Karishma Device, platformName: ANDROID}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1344x2992, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 136, appium:takesScreenshot: true, appium:viewportRect: {height: 2856, left: 0, top: 136, width: 1344}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 5be70020-0f75-4d78-ac03-b5383b89323c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+Command: [null, newSession {desiredCapabilities=Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Karishma Device, platformName: ANDROID}, capabilities=[{appium:deviceName=Karishma Device, appium:automationName=UIAutomator2, platformName=ANDROID, appium:app=E://Appium Project//Appium//src//test//java//resources//ApiDemos-debug.apk}]}]
+Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Karishma Device, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:116)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:96)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
 at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at MobileTesting.Appium.SwipeDemo.SwipeDemoTest(SwipeDemo.java:26)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+at MobileTesting.Appium.BaseTest.Configure(BaseTest.java:37)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:819)
 at org.testng.TestRunner.run(TestRunner.java:619)
@@ -78,15 +70,82 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SwipeDemoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:MobileTesting.Appium.SwipeDemo@f0c8a99]" started-at="2024-04-13T23:27:44 IST" name="tearDown" finished-at="2024-04-13T23:27:46 IST" duration-ms="1882" status="PASS">
+        </test-method> <!-- Configure -->
+        <test-method signature="DragAndDropTest()[pri:0, instance:MobileTesting.Appium.DragAndDrop@2ddc9a9f]" started-at="2024-04-19T22:22:32 IST" name="DragAndDropTest" finished-at="2024-04-19T22:22:32 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'io.appium.android.apis' application. Consider checking the driver's troubleshooting documentation. Original error: 'io.appium.android.apis.ApiDemos' or 'io.appium.android.apis.io.appium.android.apis.ApiDemos' never started. Consider checking the driver's troubleshooting documentation. 
+Host info: host: 'LAPTOP-BU5PU8BL', ip: '192.168.1.6'
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Karishma Device, platformName: ANDROID}, capabilities=[{appium:deviceName=Karishma Device, appium:automationName=UIAutomator2, platformName=ANDROID, appium:app=E://Appium Project//Appium//src//test//java//resources//ApiDemos-debug.apk}]}]
+Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Karishma Device, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'io.appium.android.apis' application. Consider checking the driver's troubleshooting documentation. Original error: 'io.appium.android.apis.ApiDemos' or 'io.appium.android.apis.io.appium.android.apis.ApiDemos' never started. Consider checking the driver's troubleshooting documentation. 
+Host info: host: 'LAPTOP-BU5PU8BL', ip: '192.168.1.6'
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Karishma Device, platformName: ANDROID}, capabilities=[{appium:deviceName=Karishma Device, appium:automationName=UIAutomator2, platformName=ANDROID, appium:app=E://Appium Project//Appium//src//test//java//resources//ApiDemos-debug.apk}]}]
+Capabilities {appium:app: E://Appium Project//Appium/..., appium:automationName: UIAutomator2, appium:deviceName: Karishma Device, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:116)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:96)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+at MobileTesting.Appium.BaseTest.Configure(BaseTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragAndDropTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MobileTesting.Appium.DragAndDrop@2ddc9a9f]" started-at="2024-04-19T22:22:32 IST" name="tearDown" finished-at="2024-04-19T22:22:32 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- MobileTesting.Appium.SwipeDemo -->
+      </class> <!-- MobileTesting.Appium.DragAndDrop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MobileTesting.Appium.SwipeDemo">
+      <class name="MobileTesting.Appium.DragAndDrop">
         <methods>
           <include name="Configure"/>
           <include name="tearDown"/>
-          <include name="SwipeDemoTest"/>
+          <include name="DragAndDropTest"/>
         </methods>
-      </class> <!-- MobileTesting.Appium.SwipeDemo -->
+      </class> <!-- MobileTesting.Appium.DragAndDrop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

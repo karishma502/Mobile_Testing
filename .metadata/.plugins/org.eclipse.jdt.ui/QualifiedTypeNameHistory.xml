@@ -7,8 +7,10 @@
     <fullyQualifiedTypeName name="io.appium.java_client.android.options.UiAutomator2Options"/>
     <fullyQualifiedTypeName name="io.appium.java_client.service.local.AppiumServiceBuilder"/>
     <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="io.appium.java_client.AppiumBy"/>
     <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeClass"/>
     <fullyQualifiedTypeName name="org.testng.annotations.AfterClass"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.AppiumBy"/>
+    <fullyQualifiedTypeName name="junit.framework.Assert"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebElement"/>
 </qualifiedTypeNameHistroy>
