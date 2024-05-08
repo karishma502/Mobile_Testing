@@ -37,12 +37,11 @@ public class MiscellaneousAppiumAction extends BaseTest{
 
 		driver.setClipboardText("Abhi");
 
-		//key Event
-
 		driver.findElement(By.id("android:id/edit")).sendKeys(driver.getClipboardText());
 		driver.pressKey(new KeyEvent(AndroidKey.ENTER));
 		driver.findElement(By.className("android.widget.Button")).click();
 
+		//key Event
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 
 		driver.pressKey(new KeyEvent(AndroidKey.HOME));
